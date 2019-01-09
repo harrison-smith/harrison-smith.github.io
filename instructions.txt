@@ -1,0 +1,33 @@
+Directions to add work:
+
+Make sure you have a text editor downloaded (I use TextWrangler.)
+
+Also make sure you are working on files within your Github repository folder (GitHub/harrison-smith.github.io)
+
+Duplicate the "[project name]" folder and change the name of the folder to the name of the project. The folder name can be an abbreviation (such as "time" for the "time study" piece) just as long as you use the abbreviation when linking in later steps.
+Within the new folder, change the name of "[project name].html" to the name of the folder. Keep the ".html" extension.
+Open "sources.html" in your text editor and replace the the text with your citations. add "</br></br>" when you desire a line break.
+Open "statement.html" in your text editor and replace the text with your statement. formatting doesn't matter here. If you desire italics, place "<i>" before the desired text and "</i>" afterwards. 
+
+If you do not desire a sources or statement page for the project, delete the respective file from the project folder, and open "menu.html" in your text editor. Delete the desired linking information. For example, if you did not want a sources page you would delete "<a href="sources.html" target="menu">sources</a></br>" 
+Make sure to keep the "</br>" above the back button linking information unless you do not want a statements page or a citation page, in which case you should delete it.
+
+Insert any photos you wish to show into the project folder. Take careful note of their names and extensions, change them if necessary. 
+
+Open "content.html" in your text editor. Copy the linking information within the <!-- ... --> tag. (or just copy the following: <a href="[image name]" target="_blank"><img src="[image name]" width="[width]%"></a></br></br>
+
+Paste this one time for each image you would like to link to. 
+Paste in order, and below "<div align="right">"
+
+Enter the information for Materials, Dimensions, and Date in their respective sections at the bottom of the code. If you wish to insert text in between images, Do so after the image's respective linking info, and add "</br></br>" after the text.
+
+Open "work.html" from the main folder in your text editor. 
+
+Copy the <a href ... > content within the <!-- ... --> tag.
+Paste this were you want the new project to be in the project menu.
+Change "[project name]" in the linking information to the project name you want to appear on the menu.
+Change "[project link]" to the desired linking info. 
+If it is a website, copy the url here. (Make sure to include "http://" and "www.")
+If it is not a website and instead has a project file that you just created, type "[project folder name]/[project file name]" here. (For example, if the project folder name is "yellow", and the project file name is "green.html", type "yellow/green.html".)
+
+Open Github Desktop, commit the changes to master (add a description) and then push the update.
