@@ -5,7 +5,9 @@ Make sure you have a text editor downloaded (I use TextWrangler.)
 Also make sure you are working on files within your Github repository folder (GitHub/harrison-smith.github.io)
 
 Duplicate the "[project name]" folder and change the name of the folder to the name of the project. The folder name can be an abbreviation (such as "time" for the "time study" piece) just as long as you use the abbreviation when linking in later steps.
+
 Within the new folder, change the name of "[project name].html" to the name of the folder. Keep the ".html" extension.
+
 Open "sources.html" in your text editor and replace the the text with your citations. add "</br></br>" when you desire a line break.
 Open "statement.html" in your text editor and replace the text with your statement. formatting doesn't matter here. If you desire italics, place "<i>" before the desired text and "</i>" afterwards. 
 
