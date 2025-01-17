@@ -1,0 +1,57 @@
+
+
+/* Class selectors begin with . and are more general */
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+	-ms-overflow-style: none;  /* hides scrollbar in IE and Edge */
+ 	scrollbar-width: none;  /* hides scrollbar in Firefox */
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'garamond', serif;
+	color: black;
+	text-decoration: none;
+}
+
+
+/* ID selectors begin with # and are more specific */
+
+#indent {
+	padding-left:2em;
+}
+
+sup { 
+	line-height: 0; 
+	font-size: 75%; 
+	text-decoration: none;
+}
+
+a:link {
+ 	color: black;
+  	background-color: transparent;
+  	text-decoration: none;
+}
+
+a:visited {
+  	color: black;
+  	background-color: transparent;
+  	text-decoration: none;
+}
+
+a:hover {
+  	color: black;
+  	background-color: transparent;
+  	text-decoration: none;
+  	font-style: italic;
+}
+
+a:active {
+  	color: black;
+  	background-color: transparent;
+  	text-decoration: none;
+}
